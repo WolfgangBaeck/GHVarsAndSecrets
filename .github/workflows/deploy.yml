@@ -1,8 +1,8 @@
-name: Deployment
+name: Deployment with MongoDB
 on:
   push:
     branches:
-      - main
+      - master
       - dev
 env: 
   MONGODB_DB_NAME: gha-demo
